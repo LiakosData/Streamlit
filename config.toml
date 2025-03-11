@@ -1,0 +1,18 @@
+[theme]
+base = "dark"
+primaryColor = "#FF4B4B"
+backgroundColor = "#1E1E1E"
+secondaryBackgroundColor = "#2E2E2E"
+textColor = "#FFFFFF"
+font = "sans serif"
+
+[server]
+port = 8000
+address = "0.0.0.0"
+maxUploadSize = 200
+enableCORS = true  # Enable CORS for Azure deployment
+enableXsrfProtection = true
+fileWatcherType = "none"  # Disable file watcher in production
+
+[browser]
+gatherUsageStats = false
